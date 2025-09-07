@@ -1,12 +1,69 @@
-# React + Vite
+# Interview Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **responsive Interview Dashboard UI** built with **React.js** and **Tailwind CSS**, designed to manage candidates, interview schedules, and company feedback.
 
-Currently, two official plugins are available:
+## 📂 Project Structure
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- `src/components/` – React components (`CandidateCard`, `CandidateList`, `RatingStars`, `SearchFilter`, etc.)
+- `src/data/` – Initial candidate data (`initialCandidates.js`)
+- `src/App.jsx` – Main dashboard layout
+- `src/index.css` – Tailwind CSS configuration
+- `public/` – Static assets like images and screenshots
 
-## Expanding the ESLint configuration
+## 🚀 How to Run the Project
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone the repository**
+
+````bash
+git clone <your-repo-url>```
+```bash
+cd interview-dashboard```
+2. **Install dependencies**
+```bash
+npm install```
+3. **Start the development server**
+```bash
+npm run dev```
+4. **Open in browser**
+
+[Visit](http://localhost:5173) (or the URL shown in your terminal)
+
+# 💡 Assumptions Made
+
+- Candidate data is stored locally in initialCandidates.js
+- Each candidate has a rating (0–5) and an interviewed status
+- Avatar colors are pre-defined in the data (bg-indigo-500, bg-green-500, etc.)
+- Feedback is textual; longer notes are truncated with 'Read More / Show Less'
+- No backend integration; all actions are handled in React state
+
+# ✨ Extra Features Implemented
+
+- Search and Filter by candidate name, role, rating, or status
+- Sorting by rating, experience, or name
+- Top Rated Badge for candidates with rating ≥ 4.5
+- Expandable Feedback Notes with 'Read More / Show Less'
+- View Feedback Modal with blurry background instead of alert
+- Mark Interviewed Button disables for already interviewed candidates
+- Responsive grid layout for mobile, tablet, and desktop
+- Hover effects and card animations for better interactivity
+
+# 🎨 Screenshots
+
+screenshots: - name: "Dashboard Screenshot"
+path: "./screenshots/dashboard.png" - name: "Modal Screenshot"
+path: "./screenshots/modal.png"
+
+# ⚡ Technologies Used
+
+- React.js: "Frontend framework"
+- Tailwind CSS: "Styling & responsive layout"
+- JavaScript: "Logic and state management (ES6+)"
+
+# 📌 Notes
+
+- Built for demonstration purposes
+- Can be extended to integrate with a backend API for real candidate data
+- Mobile-friendly design with responsive layout and accessible modal
+
+
+````
