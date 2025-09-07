@@ -49,6 +49,7 @@ export default function App() {
               Manage candidates, schedules and company feedback in one place.
             </p>
           </div>
+
           <SearchFilter
             query={query}
             setQuery={setQuery}
