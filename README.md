@@ -31,11 +31,14 @@ A **responsive Interview Dashboard UI** built with **React.js** and **Tailwind C
 3.  **Start the development server**
 
 ```bash
- npm run dev
+   npm run dev
 ```
 
 4. **Open in browser**
+
+```bash
    Visit http://localhost:5173 or the URL shown in your terminal
+```
 
 # 💡 Assumptions Made
 
