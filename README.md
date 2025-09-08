@@ -1,4 +1,4 @@
-# Interview Dashboard
+# [Interview Dashboard](https://skillvi-interview-dashboard.netlify.app/)
 
 A **responsive Interview Dashboard UI** built with **React.js** and **Tailwind CSS**, designed to manage candidates, interview schedules, and company feedback.
 
@@ -61,9 +61,12 @@ A **responsive Interview Dashboard UI** built with **React.js** and **Tailwind C
 
 # 🎨 Screenshots
 
-screenshots: - name: "Dashboard Screenshot"
-path: "./screenshots/dashboard.png" - name: "Modal Screenshot"
-path: "./screenshots/modal.png"
+- path: "./public/images/screenshots/Full_Page.png" - name: "Full Page Screenshot"
+- path: "./public/images/screenshots/Interviewied_Card.png" - name: "Interviewed Card Screenshot"
+- path: "./public/images/screenshots/Search.png" - name: "Search Screenshot"
+- path: "./public/images/screenshots/Sort_By_Experience.png" - name: "Sort by Experience Screenshot"
+- path: "./public/images/screenshots/Sort_By_Rating.png" - name: "Sort by Rating Screenshot"
+- path: "./public/images/screenshots/View_Feedback_Modal.png" - name: "Full Page Screenshot"
 
 # ⚡ Technologies Used
 
