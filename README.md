@@ -14,8 +14,10 @@ A **responsive Interview Dashboard UI** built with **React.js** and **Tailwind C
 
 1. **Clone the repository**
 
-````bash
-git clone <your-repo-url>```
+`````bash
+git clone https://github.com/shamsad-alam-meraj/interview-dashboard.git````
+````
+
 ```bash
 cd interview-dashboard```
 2. **Install dependencies**
@@ -25,7 +27,6 @@ npm install```
 ```bash
 npm run dev```
 4. **Open in browser**
-
 [Visit](http://localhost:5173) (or the URL shown in your terminal)
 
 # 💡 Assumptions Made
@@ -66,4 +67,5 @@ path: "./screenshots/modal.png"
 - Mobile-friendly design with responsive layout and accessible modal
 
 
-````
+
+`````
