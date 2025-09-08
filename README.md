@@ -13,8 +13,9 @@ A **responsive Interview Dashboard UI** built with **React.js** and **Tailwind C
 ## 🚀 How to Run the Project
 
 1. **Clone the repository**
-   `git clone https://github.com/shamsad-alam-meraj/interview-dashboard.git
-`​
+   ```bash git clone https://github.com/shamsad-alam-meraj/interview-dashboard.git
+
+   ```
    cd interview-dashboard 2. **Install dependencies**
    npm install 3. **Start the development server**
    npm run dev 4. **Open in browser**
